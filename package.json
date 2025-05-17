@@ -1,9 +1,9 @@
 {
-  "name": "jike-export-extension",
-  "description": "Export jike content",
+  "name": "url-to-any-extension",
+  "description": "URL to Any - An All-in-One Web Content Conversion Tool",
   "author": "JackyLi",
   "private": true,
-  "version": "2.1.1",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "wxt",
