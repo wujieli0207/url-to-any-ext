@@ -1,0 +1,14 @@
+import { defineConfig } from 'wxt'
+import react from '@vitejs/plugin-react'
+
+// See https://wxt.dev/api/config.html
+export default defineConfig({
+  vite: () => ({
+    plugins: [react()],
+  }),
+  manifest: {
+    name: 'URL to Any',
+    description: 'An All-in-One Web Content Conversion Tool',
+    host_permissions: ['https://*/*'],
+  },
+})
